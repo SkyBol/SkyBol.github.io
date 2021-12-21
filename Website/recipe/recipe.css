@@ -24,12 +24,14 @@ body {
   font-size: larger;
 }
 img {
-  height: 300px;
-  margin: 10px;
+  height: 100%;
+  width: 100%;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border-radius: 10px;
 }
-.imgtitle {
-  height: 450px;
-  margin: 20px;
+.imagespecial {
+  width: 45%;
 }
 .Titlepage {
   font-size: xx-large;
@@ -38,5 +40,4 @@ img {
   font-size: large;
   text-decoration: none;
   color: black;
-  
 }
