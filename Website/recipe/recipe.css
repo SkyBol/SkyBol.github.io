@@ -1,28 +1,42 @@
 body {
-    background-color: #2AB7CA !important;
+  background-color: #2ab7ca !important;
 }
 .all {
-    width: 100%;
-    height: 100%;
+  width: 100%;
+  height: 100%;
 }
 .navbar {
-    background-color: #F4F4F8 !important;
+  background-color: #f4f4f8 !important;
 }
 .pictureholder {
-    background-color: #FE4A49;
-    border-radius: 20px;
+  background-color: #fe4a49;
+  border-radius: 20px;
 }
 .textholder {
-    background-color: #FFD766;
-    border-radius: 20px;
+  background-color: #ffd766;
+  border-radius: 20px;
 }
 .row {
-    margin-top: 20px !important;
-    margin-bottom: 20px !important;
+  margin-top: 20px !important;
+  margin-bottom: 20px !important;
 }
 .title {
-    font-size: larger;
+  font-size: larger;
 }
 img {
-    height: 300px;
+  height: 300px;
+  margin: 10px;
+}
+.imgtitle {
+  height: 450px;
+  margin: 20px;
+}
+.Titlepage {
+  font-size: xx-large;
+}
+.download {
+  font-size: large;
+  text-decoration: none;
+  color: black;
+  
 }
