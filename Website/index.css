@@ -1,0 +1,37 @@
+body {
+    background-color: #2AB7CA !important;
+}
+.all {
+    width: 100%;
+    height: 100%;
+}
+.navbar {
+    background-color: #F4F4F8 !important;
+}
+
+
+/*  Cookie Dialog Field  */
+.cookiedialogfield {
+    background-color: #FFD766;
+    position: absolute;
+    width: 60%;
+    left: 20%;
+    height: 60%;
+    top: 20%;
+    border-radius: 40px;
+}
+.title {
+    font-size: xx-large;
+}
+.row {
+    margin-top: 20px !important;
+    margin-bottom: 20px !important;
+    margin-left: 20px;
+}
+.option {
+    font-size: large;
+    color: black;
+    text-decoration-line: none;
+}
+
+/**/
