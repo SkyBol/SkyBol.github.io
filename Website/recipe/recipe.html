@@ -13,7 +13,16 @@
     <link rel="stylesheet" href="recipe.css" />
     <title>Document</title>
   </head>
-  <body>
+  <body onload="load()">
+    <script>
+      function load() {
+          let x = document.cookie;
+          if (!x.localeCompare("optionalcookies=yes")) {
+            document.body.style.backgroundColor = "#f3f3f3";
+            document.body.style.backgroundImage = "url('../imprint/cookie.png')";
+          }
+        }
+    </script>
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
       <a class="navbar-brand" href="../recipe/recipe.html">Holy Cookies</a>
       <div class="navbar-nav">
